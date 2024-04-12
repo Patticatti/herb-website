@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "AvanteGarde"; /* Choose a name for your font */
+  src: url("./fonts/YourFontFile.otf") format("opentype");
+}
+
 .App {
   text-align: center;
 }
