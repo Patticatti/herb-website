@@ -1,6 +1,6 @@
 import { Flex, Image, Stack, Text, Button } from "@chakra-ui/react";
 
-export default function Logos() {
+export default function About() {
   return (
     <Flex
       paddingBlock="8rem"
@@ -16,9 +16,13 @@ export default function Logos() {
       />
       <Stack height="100%" justifyContent="space-between">
         <Image src="/images/AboutMe.svg" />
-        <Flex gap="2rem" paddingInline="1rem">
+        <Flex
+          gap="2rem"
+          paddingInline="1rem"
+          direction={["column", "column", "row"]}
+        >
           <Text
-            fontSize="1.8rem"
+            fontSize={["1.2rem", "1.2rem", "1.8rem"]}
             fontFamily="Crimson Text"
             letterSpacing="0.01em"
             lineHeight="1.4em"
@@ -29,7 +33,7 @@ export default function Logos() {
             typography as an image.
           </Text>
           <Text
-            fontSize="1.8rem"
+            fontSize={["1.2rem", "1.2rem", "1.8rem"]}
             fontFamily="Crimson Text"
             letterSpacing="0.01em"
             lineHeight="1.4em"

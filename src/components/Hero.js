@@ -21,7 +21,7 @@ export default function Hero() {
         alignSelf="flex-end"
         zIndex="2"
       />
-      <Flex alignItems="flex-end" gap="1rem">
+      <Flex alignItems="flex-end" gap="1rem" zIndex="2">
         <Text fontSize="4rem" maxWidth="250px">
           HERB LUBALIN
         </Text>
