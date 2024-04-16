@@ -26,6 +26,7 @@ export default function About() {
             fontFamily="Crimson Text"
             letterSpacing="0.01em"
             lineHeight="1.4em"
+            color="white"
           >
             From my early days as an art director to my later years as a
             celebrated designer, I've remained committed to the relentless
@@ -37,6 +38,7 @@ export default function About() {
             fontFamily="Crimson Text"
             letterSpacing="0.01em"
             lineHeight="1.4em"
+            color="white"
           >
             I've dedicated my career to pushing the boundaries of typography and
             graphics design. I've embraced playful typography, bold

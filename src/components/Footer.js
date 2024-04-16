@@ -9,10 +9,10 @@ export default function Footer() {
       gap="1rem"
       justifyContent="center"
     >
-      <Text fontSize="4rem" maxWidth="250px" textAlign="right">
+      <Text fontSize="4rem" maxWidth="250px" textAlign="right" color="white">
         HERB LUBALIN
       </Text>
-      <Text>© 1970 HERB LUBALIN. ALL RIGHTS RESERVED. </Text>
+      <Text color="white">© 1970 HERB LUBALIN. ALL RIGHTS RESERVED. </Text>
     </Flex>
   );
 }

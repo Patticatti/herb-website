@@ -13,7 +13,7 @@ export default function Hero() {
         backgroundColor="#CB0809"
         borderRadius="1000px 0 0 1000px"
       />
-      <Text fontSize="3.2rem" maxWidth="500px" zIndex="2">
+      <Text fontSize="3.2rem" maxWidth="500px" zIndex="2" color="white">
         THE BETTER PEOPLE COMMUNICATE, THE GREATER WILL BE THE NEED FOR BETTER
       </Text>
       <Image
@@ -22,13 +22,14 @@ export default function Hero() {
         zIndex="2"
       />
       <Flex alignItems="flex-end" gap="1rem" zIndex="2">
-        <Text fontSize="4rem" maxWidth="250px">
+        <Text fontSize="4rem" maxWidth="250px" color="white">
           HERB LUBALIN
         </Text>
         <Text
           fontFamily="AvanteGardeBookOb"
           letterSpacing="0.01em"
           lineHeight="1.2em"
+          color="white"
         >
           AMERICAN GRAPHIC DESIGNER COLLABORATED WITH RALPH GINZBURG ON THREE OF
           GINZBURG'S MAGAZINES: EROS, FACT, AND AVANT GARDE. DESIGNED THE

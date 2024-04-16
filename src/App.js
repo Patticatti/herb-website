@@ -8,7 +8,7 @@ import Footer from "./components/Footer.js";
 
 function App() {
   return (
-    <Box width="100%">
+    <Box width="100%" bgColor="#020C12">
       <Hero />
       <Logos />
       <About />
